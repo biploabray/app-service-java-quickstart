@@ -14,6 +14,6 @@ public class HelloDukeResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public DukesGreetingRecord sayHello() {
-        return new DukesGreetingRecord("Welcome to COIS13034!!", LocalDate.now());
+        return new DukesGreetingRecord("Welcome to COIS13034!!!!", LocalDate.now());
     }
 }
